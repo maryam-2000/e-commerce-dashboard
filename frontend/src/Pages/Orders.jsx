@@ -147,7 +147,7 @@ const Orders = () => {
         {allorders.map((order,index)=>{
           return <React.Fragment key={index}>
             <div className="listorder-format-main listorder-format">
-            <p key={index}>{order.id}</p>
+            <p>{order.id}</p>
             <div>
               {order.productList.map((product) => (
               <div key={product.productId} className="listorder-product-details">
