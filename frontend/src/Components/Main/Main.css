@@ -1,0 +1,112 @@
+.main{
+    height: 100vh;
+    background: linear-gradient(180deg, #e1e4ff, #e1ffea22 60%);
+    display: flex;
+}
+.main-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.main-left h2{
+    color: #090909;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-left p{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 700;
+}
+.main-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.main-hand-icon img{
+    width: 50px;
+}
+.main-latest-btn, .main-adminpanel-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-adminpanel-btn{
+    cursor: pointer;
+}
+.main-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:1024px){
+    .main-left{
+        padding: 80px;
+    }
+    .main-left p{
+        font-size: 40px;
+    }
+    .main-hand-icon img{
+        width: 40px;
+    }
+    .main-latest-btn, .main-adminpanel-btn{
+        width: 220px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .main-right img{
+        width: 400px;
+    }
+}
+@media(max-width:800px){
+    .main-left{
+        padding-left: 30px;
+    }
+    .main-left p{
+        font-size: 30px;
+    }
+    .main-hand-icon img{
+        width: 30px;
+    }
+    .main-latest-btn, .main-adminpanel-btn{
+        width: 175px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .main-right img{
+        width: 300px;
+    }
+}
+@media(max-width:500px){
+    .main{
+        flex-direction: column;
+    }
+    .main-right{
+        display: none;
+    }
+    .main-left p{
+        font-size: 50px;
+    }
+    .main-hand-icon img{
+        width: 55px;
+    }
+    .main-latest-btn, .main-adminpanel-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+}

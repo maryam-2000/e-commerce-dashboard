@@ -1,0 +1,209 @@
+.toggle-button {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+.toggle-button.show-filters + .price-filter,
+.toggle-button.show-filters + .date-filter {
+display: block;
+}
+.price-filter, .date-filter{
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.apply-container{
+    display: grid;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.apply-button, .clear-button{
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.clear-button{
+    margin-top: 40px;
+}
+.price-filter .price-range-slider {
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    color: #333;
+}
+.date-filter .date-range-interval{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    color: #333;
+}
+.filter-container {
+    display: flex;
+}
+.price-filter, .date-filter {
+    margin-right: 30px;
+}
+.price-filter .MuiSlider-track {
+    background-color: #1976d2;
+}
+.price-filter .MuiSlider-thumb {
+    background-color: #1976d2;
+}
+.price-filter .price-text {
+    font-size: 14px;
+    color: #333;
+    margin-top: 4px;
+}
+.list-order{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 740px;
+    margin: 50px;
+    border-radius: 6px;
+    background: white;
+}
+.listorder-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+.listorder-format{
+    align-items: center;
+    font-weight: 500;
+}
+.listorder-remove-icon{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.listorders-allorders{
+    overflow-y: auto;
+}
+.listorder-product-details {
+    font-size: 14px;
+}
+@media(max-width:1024px){
+    .list-order{
+        box-sizing: border-box;
+        width: 95%;
+        height: 500px;
+        padding: 10px 30px;
+        margin: 20px auto;
+    }
+    .listorder-format-main{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+        padding: 15px 0px;
+        color: #454545;
+        font-size: 12px;
+    }
+    .listorder-product-details{
+        font-size: 12px;
+    }
+}
+@media(max-width:800px){
+    .toggle-button {
+        margin-top: 25px;
+    }
+    .list-order{
+        box-sizing: border-box;
+        width: 95%;
+        height: 600px;
+        padding: 10px 30px;
+        margin: 20px auto;
+    }
+    .list-order h1{
+        font-size: 20px;
+    }
+    .listorder-format-main{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+        padding: 15px 0px;
+        color: #454545;
+        font-size: 8px;
+    }
+    .listorder-product-details{
+        font-size: 8px;
+    }
+    .filter-container{
+        display: contents;
+    }
+    .price-filter{
+        height: 50px;
+    }
+    .price-filter .price-range-slider{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .price-filter .price-text{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .price-filter .MuiSlider-track{
+        height: 2px;
+    }
+    .price-filter .MuiSlider-thumb{
+        width: 10px; 
+        height: 10px;
+    }
+    .date-filter{
+        height: 60px;
+    }
+    .date-filter .date-range-interval{
+        font-size: 10px;
+        margin-top: -5px;
+        margin-bottom: 12px;
+    }
+    .custom-date-range-picker .MuiInputBase-input {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .custom-date-range-picker .MuiFormLabel-root{
+        font-size: 14px;
+        margin-top: -7px;
+    }
+    .custom-date-range-picker .MuiIconButton-root {
+        padding: 8px;
+    }
+    .apply-container{
+        display: flex;
+        margin-top: -40px;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+}
+@media(max-width:500px){
+    .toggle-button {
+        margin-top: 25px;
+    }
+    .list-order h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .listorder-format-main{
+        display: none;
+    }
+    .listorder-format{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+        padding: 15px 0px;
+        color: #454545;
+        font-size: 8px;
+    }
+    .price-filter .custom-box{
+        width: 250px;
+    }
+}
