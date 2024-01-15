@@ -4,28 +4,30 @@ The task is to develop a full-stack e-commerce order dashboard that retrieves or
 
 <img src="Screenshots/Home-Page.png" width="400" height="200" />
 
-<div style="clear: both;">
-  <table style="float: left;">
-  <tr>
-    <td><img src="Screenshots/Products.png" width="200" /></td>
-    <td><img src="Screenshots/admin-add-product.png" width="200" /></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshots/cart-tablet-view.png" width="200" /></td>
-    <td><img src="Screenshots/cart-login-validation.png" width="200" /></td>
-  </tr>
-</table>
+<div style="float: left;">
+  <table>
+    <tr>
+      <td><img src="Screenshots/Products.png" width="200" /></td>
+      <td><img src="Screenshots/admin-add-product.png" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Screenshots/cart-tablet-view.png" width="200" /></td>
+      <td><img src="Screenshots/cart-login-validation.png" width="200" /></td>
+    </tr>
+  </table>
+</div>
 
-<table style="float: right;">
-  <tr>
-    <td><img src="Screenshots/login-validation.png" width="200" /></td>
-    <td><img src="Screenshots/order-summaries.png" width="200" /></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshots/order-filters.png" width="200" /></td>
-    <td><img src="Screenshots/filtered-orders.png" width="200" /></td>
-  </tr>
-</table>
+<div style="float: right;">
+  <table>
+    <tr>
+      <td><img src="Screenshots/login-validation.png" width="200" /></td>
+      <td><img src="Screenshots/order-summaries.png" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="Screenshots/order-filters.png" width="200" /></td>
+      <td><img src="Screenshots/filtered-orders.png" width="200" /></td>
+    </tr>
+  </table>
 </div>
 
 
