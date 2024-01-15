@@ -4,8 +4,8 @@ The task is to develop a full-stack e-commerce order dashboard that retrieves or
 
 <img src="Screenshots/Home-Page.png" width="400" height="200" />
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
-  <table>
+<div style="clear: both;">
+  <table style="float: left; margin-right: 20px;">
   <tr>
     <td><img src="Screenshots/Products.png" width="200" /></td>
     <td><img src="Screenshots/admin-add-product.png" width="200" /></td>
@@ -16,7 +16,7 @@ The task is to develop a full-stack e-commerce order dashboard that retrieves or
   </tr>
 </table>
 
-<table>
+<table style="float: left;">
   <tr>
     <td><img src="Screenshots/login-validation.png" width="200" /></td>
     <td><img src="Screenshots/order-summaries.png" width="200" /></td>
