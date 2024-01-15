@@ -2,7 +2,7 @@
 
 The task is to develop a full-stack e-commerce order dashboard that retrieves order and product data from two different MongoDB collections, displays order summaries, and allows order modifications with specific rules.
 
-<img src="Screenshots/Home-Page.png" width="200" height="200" />
+<img src="Screenshots/Home-Page.png" width="200" height="100" />
 
 <table>
   <tr>
