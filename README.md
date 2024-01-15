@@ -5,7 +5,7 @@ The task is to develop a full-stack e-commerce order dashboard that retrieves or
 <img src="Screenshots/Home-Page.png" width="400" height="200" />
 
 <div style="clear: both;">
-  <table style="float: left; margin-right: 20px;">
+  <table style="float: left;">
   <tr>
     <td><img src="Screenshots/Products.png" width="200" /></td>
     <td><img src="Screenshots/admin-add-product.png" width="200" /></td>
