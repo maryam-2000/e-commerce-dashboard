@@ -4,12 +4,16 @@ The task is to develop a full-stack e-commerce order dashboard that retrieves or
 
 ![Home Page](Screenshots/Home-Page.png) 
 
-<p align="center">
-  <img src="Screenshots/Products.png" width="200" />
-  <img src="Screenshots/admin-add-product.png" width="200" />
-  <img src="Screenshots/cart-tablet-view.png" width="200" />
-  <img src="Screenshots/cart-login-validation.png" width="200" />
-</p>
+<table>
+  <tr>
+    <td><img src="Screenshots/Products.png" width="200" /></td>
+    <td><img src="Screenshots/admin-add-product.png" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshots/cart-tablet-view.png" width="200" /></td>
+    <td><img src="Screenshots/cart-login-validation.png" width="200" /></td>
+  </tr>
+</table>
 
 
 ## Table of Contents
