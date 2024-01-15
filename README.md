@@ -3,7 +3,13 @@
 The task is to develop a full-stack e-commerce order dashboard that retrieves order and product data from two different MongoDB collections, displays order summaries, and allows order modifications with specific rules.
 
 ![Home Page](Screenshots/Home-Page.png) 
-![Products](Screenshots/Products.png) ![Admin-Add-Product](Screenshots/admin-add-product.png) ![Cart-Tablet-View](Screenshots/cart-tablet-view.png) ![Cart-Login-Validation](Screenshots/cart-login-validation.png)
+
+<p align="center">
+  <img src="Screenshots/Products.png" width="200" />
+  <img src="Screenshots/admin-add-product.png" width="200" />
+  <img src="Screenshots/cart-tablet-view.png" width="200" />
+  <img src="Screenshots/cart-login-validation.png" width="200" />
+</p>
 
 
 ## Table of Contents
